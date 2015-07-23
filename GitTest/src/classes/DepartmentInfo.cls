@@ -3,5 +3,8 @@ public class DepartmentInfo {
     public String managerName{get;set;}
     public Integer totalJobs{get;set;}
     public Integer totalEmployees{get;set;}
+    public DepartmentInfo(){
+    	System.debug('This is version gittestv1.0');
+    }
     
 }
